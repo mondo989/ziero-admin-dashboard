@@ -108,6 +108,13 @@ nav {
   border-radius: 8px;
   font-weight: 500;
   text-decoration: none;
+  border: 2px solid #2cd9dd;
+}
+
+.main-btn:hover {
+  background: white;
+  color: #343434;
+  text-decoration: none;
 }
 
 .profile-holder {
@@ -144,7 +151,7 @@ nav {
 }
 
 .table-content .top-row {
-  /*background: #f7f7f7;*/
+  background: #f7f7f7;
   border-top-right-radius: 7px;
   border-top-left-radius: 7px;
   font-size: 20px;
@@ -161,10 +168,10 @@ nav {
   width: 100%;
   margin: 0 auto;
 }
-/*
+
 .table-content .row:nth-child(odd) {
   background: #f7f7f7;
-}*/
+}
 
 .perks-row {
   width: 100%;
