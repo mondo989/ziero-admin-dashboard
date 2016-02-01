@@ -1,0 +1,18 @@
+
+
+#summary .company-data .row span {
+  font-size: 20px;
+}
+
+#summary .company-data .row span.company-name,
+#summary .company-data .row span.sign-on-date,
+#summary .company-data .row span.employee-id-number,
+#summary .company-data .row span.address {
+  font-weight: 500;
+}
+
+#summary .company-data .row span.company-name,
+#summary .company-data .row span.sign-on-date {
+  margin: 15px 0;
+  display: inline-block;
+}

@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/employees.css">
+    <link rel="stylesheet" href="css/profile.css">
 
   </head>
 
@@ -105,65 +106,76 @@
         <div role="tabpanel" class="tab-pane active" id="summary">
           <h1>Company Data</h1>
 
+          <div class="row gray-row company-data">
+
+            <div class="row">
+              <div class="col-sm-5">
+                <span class="company-name">Company Name:</span>
+                <span id="company-name">Sample Company</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-6">
+                <span class="sign-on-date">Sign on Date:</span>
+                <span id="sign-on-date">01/05/2015</span>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-5">
+                <span class="employee-id-number">Employer Id:</span>
+                <span id="employee-id-number">20000548</span>
+              </div>
+
+              <div class="col-sm-offset-1 col-sm-6">
+                <span class="address">Address:</span>
+                <span id="company-name">934 Howard st. San Francisco CA, 94103</span>
+              </div>
+            </div>
+
+            <!-- <h2>Quick Links</h2> -->
+            <!-- <p>Add Employee and award a perk</p>
+            <a class="main-btn" href="#">+ Add New Employee</a> -->
+          </div>
+
+
+          <h1>Contact Information</h1>
           <div class="row gray-row">
             <!-- <h2>Quick Links</h2> -->
             <p>Add Employee and award a perk</p>
             <a class="main-btn" href="#">+ Add New Employee</a>
           </div>
 
-        </div>
+
+
+        </div> <!-- End Summary Tab -->
 
 
         <div role="tabpanel" class="tab-pane" id="notifications">
-          <h1>EYYY beaa</h1>
-        </div>
+
+          <div class="row">
+          <h1>Applications Workflow Notifications</h1>
+            <div class="col-md-12 text-left">
+            <input type="checkbox" name="name" >  On each successful credit score pull
+            </div>
+          </div>
+
+          <div class="row">
+            <h1>Financial Notifications</h1>
+            <div class="col-md-12 ">
+             <input type="checkbox" name="name" >   Every Payment to fund a benefit
+            </div>
+            <div class="col-md-12">
+              <input type="checkbox" name="name" >  Weekly totals (redeeming and funding)
+            </div>
+          </div>
+
+        </div> <!-- End of notifications tab -->
 
         <div role="tabpanel" class="tab-pane" id="settings">
-          <h1>YOLOO</h1>
-        </div>
-      </div>
+          <h1>Adjust your settings here</h1>
+        </div>  <!-- End of settings tab -->
+      </div> <!-- End of TABS CONTAINER -->
 
 
-
-
-      <div class="row perks-row" >
-        <h2>Perks Available to Employees:</h2>
-          <div class="table-content">
-            <div class="row pricing-row">
-              <div class="col-md-4">
-                <img src="img/logo-circle.png" alt="">
-                <span>
-                  <h1>Low Interest</h1>
-                  <h3>Amount: $5,000</h3>
-                  <h3>Term: 18 months</h3>
-                  <h3>Interest: %6.599</h3>
-                  <h1 class="price">$279</h1>
-                </span>
-              </div>
-              <div class="col-md-4">
-                <img src="img/logo-circle.png" alt="">
-                <span>
-                  <h1>No Interest</h1>
-                  <h3>Amount: $5,000</h3>
-                  <h3>Term: 18 months</h3>
-                  <h3>Interest: %6.599</h3>
-                  <h1 class="price">$600</h1>
-                </span>
-              </div>
-              <div class="col-md-4">
-                <img src="img/logo-circle.png" alt="">
-                <span>
-                  <h1>Extended Term</h1>
-                  <h3>Amount: $5,000</h3>
-                  <h3>Term: 18 months</h3>
-                  <h3>Interest: %6.599</h3>
-                  <h1 class="price">$800</h1>
-                </span>
-              </div>
-            </div>
-
-      </div>
-    </div>
   </section>
 
 
