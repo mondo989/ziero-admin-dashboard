@@ -63,7 +63,7 @@ nav {
   position: relative;
 }
 .sidebar ul li:hover {
-  border-color: #2cd9dd;
+  border-right: 3px solid #2cd9dd;
 }
 
 .sidebar ul li.active {
@@ -181,6 +181,10 @@ nav {
   text-decoration: none;
 }
 
+.table-content {
+  overflow-y: hidden;
+}
+
 .table-content .top-row {
   background: #f7f7f7;
   border-top-right-radius: 7px;
@@ -278,7 +282,10 @@ nav {
 
 .content-window .container {
   position: absolute;
+  width: 100%;
+  max-width: 1060px;
   left:0;
+
 }
 .main-content i.fa-calendar {
   margin-right: 20px;

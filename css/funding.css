@@ -1,0 +1,57 @@
+
+.date {
+  font-size: 15px;
+  text-align: center;
+  padding-right: 0;
+  padding-left: 0;
+}
+.top-row .date {
+  font-size: 20px;
+}
+
+.date {
+  /*background: gray;*/
+  padding-left: 5px;
+}
+.date:after,
+.action:after,
+.amount:after,
+.payment-method:after {
+    content:'';
+    height: 0;
+    width: 0;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #ddd;
+    right: -10px;
+    top:-20px;
+    position: absolute;
+    height: 100px;
+}
+.action {
+  /*background: blue;*/
+  padding-right: 0!important;
+  padding-left: 25px;
+  margin-right: 0;
+}
+
+.amount {
+  /*background: red;*/
+  margin-left: 0;
+  text-align: center;
+  padding-right: 0;
+  margin-right: 0!important;
+  padding-left: 25px;
+}
+
+.payment-method {
+  /*background: pink;*/
+  padding-left: 25px;
+  padding-right: 0;
+}
+
+.payment-details {
+  /*background: yellow;*/
+  padding-left: 25px;
+  padding-right: 0;
+}
