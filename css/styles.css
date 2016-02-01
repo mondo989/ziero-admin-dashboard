@@ -201,6 +201,9 @@ nav {
   padding: 12px 0;
   color: black;
   width: 100%;
+  border-right: 1px solid #f3f3f3;
+  border-left: 1px solid #f3f3f3;
+
   margin: 0 auto;
 }
 
@@ -219,7 +222,7 @@ nav {
 
 .perks-row h2 {
   text-indent: 45px;
-  margin: 80px 0 30px 0;;
+  margin: 80px 0 30px 0;
 }
 
 .perks-row img {
@@ -289,4 +292,10 @@ nav {
 }
 .main-content i.fa-calendar {
   margin-right: 20px;
+}
+
+.content-window > * {
+
+-webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
 }

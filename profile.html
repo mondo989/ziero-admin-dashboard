@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/employees.css">
 
@@ -47,8 +46,8 @@
 
   <div class="sidebar">
     <ul class="">
-      <li class="active">
-        <a href="#">
+      <li>
+        <a href="index.html">
           <i class="ion-ios-home"></i>
           <span>Home</span>
         </a>
@@ -65,7 +64,7 @@
           <span>Funding</span>
         </a>
       </li>
-      <li>
+      <li class="active">
         <a href="profile.html">
           <i class="ion-android-person"></i>
           <span>Profile</span>
@@ -76,18 +75,56 @@
 
   <section class="content-window">
     <div class="container">
-      <div class="row">
+      <!-- <div class="row">
         <h1 class="text-left main-content">
           <i class="fa fa-calendar"></i>Summary
         </h1>
+      </div> -->
+
+
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+          <a href="#summary" aria-controls="summary" role="tab" data-toggle="tab">
+            <h4>Summary</h4>
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="#notifications" aria-controls="notifications" role="tab" data-toggle="tab">
+            <h4>Notifications</h4>
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
+            <h4>Settings</h4>
+          </a>
+        </li>
+      </ul>
+
+
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="summary">
+          <h1>Company Data</h1>
+
+          <div class="row gray-row">
+            <!-- <h2>Quick Links</h2> -->
+            <p>Add Employee and award a perk</p>
+            <a class="main-btn" href="#">+ Add New Employee</a>
+          </div>
+
+        </div>
+
+
+        <div role="tabpanel" class="tab-pane" id="notifications">
+          <h1>EYYY beaa</h1>
+        </div>
+
+        <div role="tabpanel" class="tab-pane" id="settings">
+          <h1>YOLOO</h1>
+        </div>
       </div>
 
 
-      <div class="row gray-row">
-        <h2>Quick Links</h2>
-        <p>Add Employee and award a perk</p>
-        <a class="main-btn" href="#">+ Add New Employee</a>
-      </div>
+
 
       <div class="row perks-row" >
         <h2>Perks Available to Employees:</h2>

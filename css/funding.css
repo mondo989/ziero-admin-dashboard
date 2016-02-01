@@ -22,7 +22,7 @@
     width: 0;
     border-width: 1px 1px 1px 1px;
     border-style: solid;
-    border-color: #ddd;
+    border-color: #eee;
     right: -10px;
     top:-20px;
     position: absolute;
@@ -43,13 +43,11 @@
   margin-right: 0!important;
   padding-left: 25px;
 }
-
 .payment-method {
   /*background: pink;*/
   padding-left: 25px;
   padding-right: 0;
 }
-
 .payment-details {
   /*background: yellow;*/
   padding-left: 25px;
