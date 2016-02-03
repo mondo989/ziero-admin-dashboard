@@ -75,6 +75,7 @@ nav {
 .sidebar ul li.active a {
   color: white;
 }
+
 .sidebar ul li.active:after {
   content:'';
   height: 0;
@@ -179,6 +180,11 @@ nav {
   margin-left: 60px;
   margin-top: 10px;
   text-decoration: none;
+}
+.gray-row h8 {
+  display: block;
+  margin-top: -7.5px;
+  padding-top: 0;
 }
 
 .table-content {
@@ -288,7 +294,6 @@ nav {
   width: 100%;
   max-width: 1060px;
   left:0;
-
 }
 .main-content i.fa-calendar {
   margin-right: 20px;
@@ -298,4 +303,22 @@ nav {
 
 -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
+}
+
+.checkbox-holder {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.checkbox-holder input {
+  margin-right: 10px;
+}
+
+
+.gray-row input {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  text-indent: 15px;
+  font-size: 20px;
+  height:60px;
 }

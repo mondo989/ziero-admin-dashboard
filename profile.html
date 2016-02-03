@@ -105,15 +105,13 @@
       <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="summary">
           <h1>Company Data</h1>
-
           <div class="row gray-row company-data">
-
             <div class="row">
-              <div class="col-sm-5">
+              <div class="col-sm-5 ">
                 <span class="company-name">Company Name:</span>
                 <span id="company-name">Sample Company</span>
               </div>
-              <div class="col-sm-offset-1 col-sm-6">
+              <div class="col-sm-offset-1 col-sm-5">
                 <span class="sign-on-date">Sign on Date:</span>
                 <span id="sign-on-date">01/05/2015</span>
               </div>
@@ -125,7 +123,7 @@
                 <span id="employee-id-number">20000548</span>
               </div>
 
-              <div class="col-sm-offset-1 col-sm-6">
+              <div class="col-sm-offset-1 col-sm-5">
                 <span class="address">Address:</span>
                 <span id="company-name">934 Howard st. San Francisco CA, 94103</span>
               </div>
@@ -138,12 +136,52 @@
 
 
           <h1>Contact Information</h1>
-          <div class="row gray-row">
-            <!-- <h2>Quick Links</h2> -->
-            <p>Add Employee and award a perk</p>
-            <a class="main-btn" href="#">+ Add New Employee</a>
+          <div class="row gray-row company-information">
+            <h3>Administrative Contact </h3>
+              <h8>(for Ziero Financial to Contact)</h8>
+            <div class="row name-row">
+              <div class="col-md-6">
+                <input type="text" placeholder="First Name">
+              </div>
+              <div class="col-md-6">
+                <input type="text" placeholder="Last Name">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <input type="text" placeholder="Email">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+                <input type="text" placeholder="Phone">
+              </div>
+              <div class="col-md-4">
+                <input type="text" placeholder="Ext">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 text-left">
+                <p>Financial Notifications:</p>
+              </div>
+              <div class="col-md-8">
+                <input type="text" placeholder="Email">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 text-left">
+                <p>Employee Assistance:</p>
+              </div>
+              <div class="col-md-8">
+                <input type="text" placeholder="Email">
+              </div>
+            </div>
           </div>
 
+    <br><br>
 
 
         </div> <!-- End Summary Tab -->
@@ -153,17 +191,17 @@
 
           <div class="row">
           <h1>Applications Workflow Notifications</h1>
-            <div class="col-md-12 text-left">
+            <div class="col-md-12 checkbox-holder">
             <input type="checkbox" name="name" >  On each successful credit score pull
             </div>
           </div>
 
           <div class="row">
             <h1>Financial Notifications</h1>
-            <div class="col-md-12 ">
-             <input type="checkbox" name="name" >   Every Payment to fund a benefit
-            </div>
-            <div class="col-md-12">
+              <div class="col-md-12 checkbox-holder">
+               <input type="checkbox" name="name" >   Every Payment to fund a benefit
+              </div>
+            <div class="col-md-12 checkbox-holder">
               <input type="checkbox" name="name" >  Weekly totals (redeeming and funding)
             </div>
           </div>
