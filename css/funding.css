@@ -69,3 +69,6 @@
 #payment-activity .main-btn:hover i {
   opacity: 1;
 }
+.nav-tabs {
+  background: white;
+}

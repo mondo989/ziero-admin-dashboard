@@ -11,7 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/employees.css">
+    <link rel="stylesheet" href="css/profile.css">
 
   </head>
 
@@ -47,8 +47,8 @@
 
   <div class="sidebar">
     <ul class="">
-      <li class="active">
-        <a href="#">
+      <li>
+        <a href="index.html">
           <i class="ion-ios-home"></i>
           <span>Home</span>
         </a>
@@ -65,8 +65,8 @@
           <span>Funding</span>
         </a>
       </li>
-      <li>
-        <a href="profile.html">
+      <li class="active">
+        <a href="profile-summary.html">
           <i class="ion-android-person"></i>
           <span>Profile</span>
         </a>
@@ -76,57 +76,39 @@
 
   <section class="content-window">
     <div class="container">
-      <div class="row">
+      <!-- <div class="row">
         <h1 class="text-left main-content">
           <i class="fa fa-calendar"></i>Summary
         </h1>
-      </div>
+      </div> -->
 
 
-      <div class="row gray-row">
-        <h2>Quick Links</h2>
-        <p>Add Employee and award a perk</p>
-        <a class="main-btn" href="#">+ Add New Employee</a>
-      </div>
+      <ul class="nav nav-tabs">
+        <li role="presentation" >
+          <a href="profile-summary.html">
+            <h4>Summary</h4>
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="profile-notifications.html">
+            <h4>Notifications</h4>
+          </a>
+        </li>
+        <li role="presentation" class="active">
+          <a href="profile-settings.html">
+            <h4>Settings</h4>
+          </a>
+        </li>
+      </ul>
 
-      <div class="row perks-row" >
-        <h2>Perks Available to Employees:</h2>
-          <div class="table-content">
-            <div class="row pricing-row">
-              <div class="col-md-4">
-                <img src="img/logo-circle.png" alt="">
-                <span>
-                  <h1>Low Interest</h1>
-                  <h3>Amount: $5,000</h3>
-                  <h3>Term: 18 months</h3>
-                  <h3>Interest: %6.599</h3>
-                  <h1 class="price">$279</h1>
-                </span>
-              </div>
-              <div class="col-md-4">
-                <img src="img/logo-circle.png" alt="">
-                <span>
-                  <h1>No Interest</h1>
-                  <h3>Amount: $5,000</h3>
-                  <h3>Term: 18 months</h3>
-                  <h3>Interest: %6.599</h3>
-                  <h1 class="price">$600</h1>
-                </span>
-              </div>
-              <div class="col-md-4">
-                <img src="img/logo-circle.png" alt="">
-                <span>
-                  <h1>Extended Term</h1>
-                  <h3>Amount: $5,000</h3>
-                  <h3>Term: 18 months</h3>
-                  <h3>Interest: %6.599</h3>
-                  <h1 class="price">$800</h1>
-                </span>
-              </div>
-            </div>
 
-      </div>
-    </div>
+
+        <div class="container">
+          <h1>Adjust your settings here</h1>
+        </div>  <!-- End of settings tab -->
+      </div> <!-- End of TABS CONTAINER -->
+
+
   </section>
 
 

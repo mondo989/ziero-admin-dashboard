@@ -92,7 +92,6 @@ nav {
   -o-transform: rotate(45deg);
 
   position: absolute;
-  background: blue;
   top: 20px;
   z-index: -20;
 }
@@ -282,7 +281,6 @@ nav {
   margin-bottom: 50px;
 }
 .content-window {
-  background: blue;
   width: 80%;
   right: 20px;
   position: absolute;
