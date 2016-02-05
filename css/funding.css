@@ -1,3 +1,13 @@
+.section {
+  margin: 40px 0;
+}
+
+
+h1 {
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
 
 .date {
   font-size: 15px;
@@ -7,6 +17,13 @@
 }
 .top-row .date {
   font-size: 20px;
+}
+
+.top-row:first-child .default-payment{
+  font-size: 17px;
+}
+.default-payment {
+  text-align: center;
 }
 
 .date {
@@ -28,6 +45,24 @@
     position: absolute;
     height: 100px;
 }
+
+.card-type:after,
+.card-name:after,
+.card-expiration:after,
+.card-number:after {
+    content:'';
+    height: 0;
+    width: 0;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #eee;
+    right: -10px;
+    top:-20px;
+    position: absolute;
+    height: 100px;
+}
+
+
 .action {
   /*background: blue;*/
   padding-right: 0!important;
@@ -62,6 +97,26 @@
 -webkit-transition: .5s;
   transition: .5s;
 }
+ .main-btn {
+  padding: 7px 15px;
+  margin-bottom: 20px;
+}
+
+span.row-cta {
+  display: inline;
+  width: 100%;
+}
+span.row-cta h1 {
+  width: 75%;
+  display: inline-block;
+}
+
+span.row-cta .main-btn {
+  text-align: right;
+  display: inline-block;
+  /*float: right;*/
+}
+
 #payment-activity .main-btn i {
   opacity: 0;
 }
@@ -71,4 +126,16 @@
 }
 .nav-tabs {
   background: white;
+}
+
+
+.copy, .remove {
+  font-size: 10px!important;
+  text-align: center!important;
+}
+
+.active .ion-ios-checkmark-outline {
+  border-radius: 120px;
+  color: green;
+  display: inline-block;
 }

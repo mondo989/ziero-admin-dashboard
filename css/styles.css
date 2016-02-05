@@ -59,7 +59,6 @@ nav {
   padding: 20px;
   -webkit-transition: .6s;
   transition: .6s;
-
   position: relative;
 }
 .sidebar ul li:hover {
@@ -143,7 +142,7 @@ nav {
 }
 
 .main-btn:hover {
-  background: white;
+  background: transparent;
   color: #343434;
   text-decoration: none;
 }
@@ -319,4 +318,20 @@ nav {
   text-indent: 15px;
   font-size: 20px;
   height:60px;
+}
+
+
+span.row-cta {
+  display: inline;
+  width: 100%;
+}
+span.row-cta h1 {
+  width: 75%;
+  display: inline-block;
+}
+
+span.row-cta .main-btn {
+  text-align: right;
+  display: inline-block;
+  /*float: right;*/
 }
