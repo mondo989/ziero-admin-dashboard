@@ -62,7 +62,7 @@ nav {
   position: relative;
 }
 .sidebar ul li:hover {
-  border-right: 3px solid #2cd9dd;
+  /*border-right: 3px solid #2cd9dd;*/
 }
 
 .sidebar ul li.active {
