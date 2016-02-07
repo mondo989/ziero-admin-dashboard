@@ -14,11 +14,21 @@
 #summary .company-data .row span.company-name,
 #summary .company-data .row span.sign-on-date {
   margin: 15px 0;
+  text-indent: 20px;
   display: inline-block;
 }
 
 .company-data .row:nth-child(1n+0) {
 
+}
+
+span.employee-id-number {
+  text-indent: 20px;
+  display: inline-block;
+}
+span.address {
+padding-left: 20px;
+  display: inline-block;
 }
 
 
