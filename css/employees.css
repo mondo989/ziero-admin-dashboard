@@ -3,22 +3,36 @@
 .employee-first-name,
 .employee-last-name,
 .employee-start-date,
-.employee-email-address {
+.employee-email-address,
+.employee-position {
   font-weight: 500;
 }
 
-#new-employee .company-data .row span {
+#new-employee .row span {
   font-size: 20px;
   margin: 10px 0;
   display: inline-block;
+  text-indent: 0;
 }
-#new-employee .company-data .row span:nth-child(2) {
+
+
+#new-employee .row span:nth-child(2) {
   margin-left: 10px;
 }
 
-#new-employee .company-data.gray-row {
+#new-employee .gray-row {
   text-indent: 30px;
   padding-top: 10px;
+}
+
+#new-employee .gray-row input {
+
+  margin: 10px 0;
+  margin-left: 15px;
+}
+
+#new-employee .gray-row span{
+  padding-top: 15px;
 }
 
 .employee-benefits .circle {
@@ -31,6 +45,31 @@
   font-weight: 500;
   width: 225px;
   border: 4px solid #2cd9dd;
+}
+
+.first-name-input {
+  width: 71.5% !important;
+  display: inline;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+.start-date-input {
+  width: 50%!important;
+  text-align: center;
+  text-indent: 0!important;
+}
+.last-name-input {
+  width: 72%!important;
+}
+.position-input {
+  width: 58%!important;
+}
+
+.start-date-input,
+.first-name-input,
+.last-name-input {
+  display: inline;
+  margin-left: 10px;
 }
 
 .employee-benefits .row {
@@ -51,4 +90,43 @@
   right:0;
   bottom:0;
   display: block;
+}
+
+.table-content .first-name:after,
+.table-content .last-name:after,
+.table-content .position:after,
+.table-content .start-date:after,
+.table-content .current-benefit:after,
+.table-content .status:after {
+    content:'';
+    height: 0;
+    width: 0;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #eee;
+    right: -10px;
+    top:-20px;
+    position: absolute;
+    height: 100px;
+}
+
+.table-content .top-row .action {
+  padding-top: 2px;
+  font-size: 18px;
+}
+.table-content .top-row .current-benefit  {
+  font-size: 18px;
+  padding-top: 2px;
+}
+.table-content .top-row .status {
+  font-size: 18px;
+  padding-top: 2px;
+}
+
+.table-content  .action {
+  text-align: center;
+}
+
+.content-window section {
+  padding: 20px 0;
 }

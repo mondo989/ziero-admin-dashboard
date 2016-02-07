@@ -1,27 +1,19 @@
 body {
   font-family: 'Open sans';
 }
-
 nav {
   background: #363636;
 }
-
 .red {
   background: red;
 }
 .blue {
   background: blue;
 }
-
-.white {
-  color: white;
-}
-
 .navbar {
   padding: 30px 0;
   border-radius: 0;
 }
-
 .ziero-financial-logo {
   width: 240px;
   margin-top: -30px;
@@ -118,7 +110,7 @@ nav {
   display: block;
   font-size: 20px;
   margin-top: -10px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .sidebar a i {
@@ -241,15 +233,21 @@ nav {
   text-align: center;
   width: 100%;
   display: block;
-  border: 5px solid rgba(44, 217, 221, .75);
+  /*border: 2px solid rgba(44, 217, 221, .5);*/
+  border: 1px solid #e0e0e0;
   margin-top: 20px;
   border-radius: 5px;
+  overflow: hidden;
 
 }
 
 .perks-row .col-md-4 span h1,
 .perks-row .col-md-4 span h3 {
   text-indent: 0;
+}
+
+.pricing-row {
+  padding: 50px 0!important;
 }
 
 .pricing-row img {
@@ -325,7 +323,8 @@ span.row-cta {
   display: inline;
   width: 100%;
 }
-span.row-cta h1 {
+span.row-cta h1,
+span.row-cta h2 {
   width: 75%;
   display: inline-block;
 }
@@ -333,5 +332,28 @@ span.row-cta h1 {
 span.row-cta .main-btn {
   text-align: right;
   display: inline-block;
+  padding: 10px 20px;
   /*float: right;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.m20 {
+  margin: 30px 0!important;
+  display: block!important;
 }
