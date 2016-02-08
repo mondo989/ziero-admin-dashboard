@@ -8,7 +8,7 @@
 #summary .company-data .row span.sign-on-date,
 #summary .company-data .row span.employee-id-number,
 #summary .company-data .row span.address {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 #summary .company-data .row span.company-name,
@@ -50,7 +50,7 @@ padding-left: 20px;
 .gray-row p {
   text-indent: 30px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 

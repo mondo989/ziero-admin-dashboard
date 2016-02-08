@@ -5,7 +5,7 @@
 .employee-start-date,
 .employee-email-address,
 .employee-position {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 #new-employee .row span {
@@ -42,7 +42,7 @@
   position: relative;
   height: 225px;
   background: #fff;
-  font-weight: 500;
+  font-weight: 600;
   border: 8px solid #f0f0f0;
   width: 225px;
 
@@ -132,7 +132,7 @@
   padding: 20px 0;
 }
 .table-content .action a {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 

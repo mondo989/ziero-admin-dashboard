@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
   <nav class="navbar">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -76,107 +77,102 @@
 
   <section class="content-window">
     <div class="container">
+      <!-- <div class="row">
+          <h1 class="text-left main-content">
+            <i class="fa fa-calendar"></i>Summary
+          </h1>
+        </div> -->
+
+
       <section>
         <div id="new-employee">
-          <h1>Add New Employee</h1>
+
+
+          <span class="row row-cta ">
+              <h1>Add New Employee</h1>
+              <a href="new-employee.html" class="main-btn">Update</a>
+            </span>
+
           <div class="row gray-row">
             <div class="row">
-              <h3>Employee Details:</h3>
               <div class="col-sm-7 ">
                 <span class="employee-first-name">First Name:</span>
-                <input class="first-name-input" type="text" placeholder="James">
-                <!-- <span id="employee-first-name">James</span> -->
+                <span id="employee-first-name">James</span>
               </div>
               <div class="col-sm-5">
                 <span class="employee-start-date">Start Date:</span>
-                <input class="start-date-input" type="text" placeholder="09/09/2016">
-                <!-- <span id="employee-start-date">09/09/2015</span> -->
+                <span id="employee-start-date">09/09/2015</span>
               </div>
             </div>
 
             <div class="row">
               <div class="col-sm-7">
                 <span class="employee-last-name">Last Name:</span>
-                <input class="last-name-input" type="text" placeholder="Bond">
-                <!-- <span id="employee-last-name">Bond</span> -->
+                <span id="employee-last-name">Bond</span>
               </div>
 
               <div class="col-sm-5">
                 <span class="employee-position">Position:</span>
-                <input class="position-input" type="text" placeholder="CFO">
-                <!-- <span id="employee-position">CFO</span> -->
+                <span id="employee-position">CFO</span>
               </div>
             </div>
 
             <div class="row">
               <div class="col-sm-8">
                 <span class="employee-email-address">Email Address:</span>
-                <input class="position-input" type="text" placeholder="jamesbond007@yahoo.com">
-                <!-- <span id="employee-email-address">testemail@yahoo.com</span> -->
+                <!-- <input class="position-input" type="text" placeholder="jamesbond007@yahoo.com"> -->
+                <span id="employee-email-address">testemail@yahoo.com</span>
               </div>
 
               <div class="col-sm-offset-1 col-sm-3">
               </div>
             </div>
 
-            <div class="row update-btn-row">
-              <div class="col-sm-offset-10 col-sm-1">
-                <a href="#" class="main-btn">Update</a>
+            <section id="active-benefits">
+              <div class="row">
+                <h3>Active Benefits:</h3>
               </div>
-            </div>
+            </section>
+
           </div>
       </section>
-
 
       <section>
-        <h1>Employee Benefits</h1>
+        <h1>Benefit History</h1>
         <div class="row gray-row employee-benefits">
           <h3>Select Perks to Award to Employees</h3>
+          <!-- <div class="row text-center" id="container">
+                <div class="col-sm-4">
+                  <span class="circle">
+                    <span class="benefit-copy">0% <br>Interest Rates</span>
+                  </span>
+                </div>
+                <div class="col-sm-4">
+                  <span class="circle">
+                    <span class="benefit-copy">Fixed Interest Rates</span>
+                  </span>
+                </div>
+                <div class="col-sm-4 ">
+                  <span class="circle">
+                    <span class="benefit-copy">Fixed Interest Rates</span>
+                  </span>
+                </div>
 
-          <div class="row text-center" id="container">
-            <div class="col-sm-4">
-              <span class="circle">
-                  <span class="benefit-copy">0% <br>Interest Rates</span>
-              </span>
-            </div>
-            <div class="col-sm-4">
-              <span class="circle">
-                  <span class="benefit-copy">Fixed Interest Rates</span>
-              </span>
-            </div>
-            <div class="col-sm-4 ">
-              <span class="circle">
-                  <span class="benefit-copy">Fixed Interest Rates</span>
-              </span>
-            </div>
-
-            <div class="row update-btn-row">
-              <div class="col-sm-offset-9 col-sm-2">
-                <a href="#" class="main-btn">Save Benefit</a>
-              </div>
-            </div>
-          </div>
+                <div class="row update-btn-row">
+                  <div class="col-sm-offset-9 col-sm-2">
+                    <a href="#" class="main-btn">Save Benefit</a>
+                  </div>
+                </div>
+              </div> -->
         </div>
       </section>
-
       <br>
       <br>
-
       </div>
-
-
   </section>
-
 
 </body>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-
-<script type="text/javascript">
-  document.getElementById("container").attachEvent('onclick', function() { /* do stuff here*/
-    console.log("fhesohfs")
-  });
-</script>
 
 </html>
