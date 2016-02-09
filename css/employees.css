@@ -120,6 +120,12 @@
   width: 58%!important;
 }
 
+#active-benefits h4 {
+  font-size: 20px;
+  font-weight: 400;
+  text-indent: 70px;
+}
+
 .start-date-input,
 .first-name-input,
 .last-name-input {
@@ -183,6 +189,22 @@
   margin-top: 60px;
 }
 
+.table-content .benefit:after,
+.table-content .offered-date:after,
+.table-content .position:after,
+.table-content .date:after {
+    content:'';
+    height: 0;
+    width: 0;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #eee;
+    right: -10px;
+    top:-20px;
+    position: absolute;
+    height: 100px;
+}
+
 .table-content .first-name:after,
 .table-content .last-name:after,
 .table-content .position:after,
@@ -200,6 +222,7 @@
     position: absolute;
     height: 100px;
 }
+
 
 .table-content .top-row .action {
   padding-top: 2px;
