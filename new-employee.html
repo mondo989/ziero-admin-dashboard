@@ -33,11 +33,11 @@
 
       <div class="collapse navbar-collapse">
         <span class="nav navbar-nav navbar-right ">
-            <span class="profile-holder">
-                Contact Us:
-                <a href="#">1 (415) 510-1645</a>
-              <!-- <img class="profile-img" src="http://lorempixel.com/image_output/nature-q-c-120-120-7.jpg" alt="profile image">
-              <a href="#" class="account-name">John Ipsum <span class="caret"></span></a> -->
+          <span class="profile-holder">
+              Contact Us:
+            <a href="#">1 (415) 510-1645</a>
+            <!-- <img class="profile-img" src="http://lorempixel.com/image_output/nature-q-c-120-120-7.jpg" alt="profile image">
+            <a href="#" class="account-name">John Ipsum <span class="caret"></span></a> -->
         </span>
         </span>
       </div>
@@ -131,30 +131,91 @@
       <section>
         <h1>Employee Benefits</h1>
         <div class="row gray-row employee-benefits">
-          <h3>Select Perks to Award to Employees</h3>
+          <h3>Select Which Perks to Award to Employees</h3>
 
-          <div class="row text-center" id="container">
-            <div class="col-sm-4">
+          <div class="row text-center" id="add-perks-container">
+            <div id="perk1" class="col-sm-3 col-xs-6">
+              <span class="circle">
+                  <span class="benefit-copy">Low<br>Interest Rates</span>
+                <i class="ion-checkmark-circled"></i>
+              </span>
+
+              <span>
+                  <h5>Term: 18 months</h5>
+                  <h5>Amount: $5,000</h5>
+                  <h5>Interest: 6.99%</h5>
+                  <h5 class="price">Fee: $275</h5>
+              </span>
+
+              <select class="position-dropdown" name="">
+                <option value="Show All">Select Date</option>
+                <option value="Show Other">Other Date</option>
+              </select>
+            </div>
+
+            <div id="perk2" class="col-sm-3 col-xs-6">
               <span class="circle">
                   <span class="benefit-copy">0% <br>Interest Rates</span>
+              <i class="ion-checkmark-circled"></i>
               </span>
-            </div>
-            <div class="col-sm-4">
-              <span class="circle">
-                  <span class="benefit-copy">Fixed Interest Rates</span>
-              </span>
-            </div>
-            <div class="col-sm-4 ">
-              <span class="circle">
-                  <span class="benefit-copy">Fixed Interest Rates</span>
-              </span>
+
+              <span>
+                  <h5>Amount: $5,000</h5>
+                  <h5>Term: 18 months</h5>
+                  <h5>Interest: %0</h5>
+                  <h5 class="price">Fee: $600</h5>
+                </span>
+              <select class="position-dropdown" name="">
+                <option value="Show All">Choose Date</option>
+                <option value="Show Other">Other Date</option>
+              </select>
             </div>
 
-            <div class="row update-btn-row">
-              <div class="col-sm-offset-9 col-sm-2">
-                <a href="#" class="main-btn">Save Benefit</a>
-              </div>
+            <div id="perk3" class="col-sm-3 col-xs-6">
+              <span class="circle">
+                  <span class="benefit-copy">Fixed Interest Rates</span>
+              <i class="ion-checkmark-circled"></i>
+              </span>
+
+              <span>
+                <h5>Amount: $5,000</h5>
+                <h5>Term: 24 months</h5>
+                <h5>Interest: %0</h5>
+                <h5 class="price">Fee: $800</h5>
+              </span>
+
+              <span class="choose-date">
+                <select class="position-dropdown" name="">
+                  <option value="Show All">Select Date</option>
+                  <option value="Show Other">Other Date</option>
+                </select>
+              </span>
+
             </div>
+            <div class="col-sm-3 col-xs-6 inactive">
+              <span class="inactive-span">
+                Inactive
+              </span>
+              <span id="perk4" class="circle ">
+                  <span class="benefit-copy">Fixed Interest Rates</span>
+              <i class="ion-checkmark-circled"></i>
+              </span>
+
+              <span>
+                <h5>Amount: $5,000</h5>
+                <h5>Term: 18 months</h5>
+                <h5>Interest: %6.599</h5>
+                <h5 class="price">Fee: $279</h5>
+              </span>
+
+              <select class="position-dropdown" name="">
+                <option value="Show All">Select Date</option>
+                <option value="Show Other">Other Date</option>
+              </select>
+            </div>
+          </div>
+          <div class="row save-beneift-row">
+            <a href="#" class="text-center main-btn">Save Benefit</a>
           </div>
         </div>
       </section>
@@ -164,18 +225,27 @@
 
       </div>
 
-
   </section>
-
-
 </body>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
 <script type="text/javascript">
-  document.getElementById("container").attachEvent('onclick', function() { /* do stuff here*/
-    console.log("fhesohfs")
+  document.getElementById("perk1").addEventListener("click", function() {
+    document.getElementById("perk1").classList.toggle("active");
+  });
+
+  document.getElementById("perk2").addEventListener("click", function() {
+    document.getElementById("perk2").classList.toggle("active");
+  });
+
+  document.getElementById("perk3").addEventListener("click", function() {
+    document.getElementById("perk3").classList.toggle("active");
+  });
+
+  document.getElementById("perk4").addEventListener("click", function() {
+    document.getElementById("perk4").classList.toggle("active");
   });
 </script>
 
