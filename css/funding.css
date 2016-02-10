@@ -153,6 +153,8 @@ span.row-cta .main-btn {
 .perk-redemptions {
   text-indent: 20px;
   display: inline-block;
+  margin: 15px 0;
+
   font-weight: 600;
 }
 .total-cost {
@@ -163,4 +165,8 @@ span.row-cta .main-btn {
   font-size: 20px;
   display: inline-block;
   text-indent: 30px;
+}
+
+h2.year-to-date  {
+  text-indent: 10px;
 }

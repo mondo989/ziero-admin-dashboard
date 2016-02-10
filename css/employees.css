@@ -151,10 +151,10 @@
   left: 0;
   width: 80%;
   margin: 0 auto!Important;
-  padding-top: 20%;
+  padding-top: 25%;
 
-  font-size: 20px;
-  color: #343434;
+  font-size: 45px;
+  color: rgba(0, 0, 0, 0.6);
   right:0;
   bottom:0;
   display: block;
@@ -325,4 +325,16 @@ section.benefit-history h2 {
 .benefit-history .table-content .top-row .date {
   font-size: inherit!important;
   padding-top: 0!important;
+}
+
+
+
+.employee-benefits h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h5.uppercase {
+  font-size: 20px;
+  font-weight: 600;
 }
