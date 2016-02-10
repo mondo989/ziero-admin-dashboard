@@ -301,3 +301,28 @@
   margin-left: -15px;
   font-size: 10px;
 }
+
+
+section.benefit-history h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+
+.revoke .revoke-btn {
+  background: #f3f3f3;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 2.5px 10px;
+}
+.revoke .revoke-btn:hover {
+  color: gray;
+}
+
+.benefit-history .table-content .top-row .status,
+.benefit-history .table-content .top-row .date {
+  font-size: inherit!important;
+  padding-top: 0!important;
+}
