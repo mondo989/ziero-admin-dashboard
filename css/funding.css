@@ -117,14 +117,16 @@ span.row-cta {
   display: inline;
   width: 100%;
 }
-span.row-cta h1 {
-  width: 75%;
+span.row-cta h1,
+span.row-cta h2 {
+  width: 100%;
   display: inline-block;
 }
 
 span.row-cta .main-btn {
   text-align: right;
   display: inline-block;
+  margin-bottom: 0;
   /*float: right;*/
 }
 
@@ -138,6 +140,8 @@ span.row-cta .main-btn {
 .nav-tabs {
   background: white;
 }
+
+
 
 
 .copy, .remove {

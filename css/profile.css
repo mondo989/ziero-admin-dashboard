@@ -39,8 +39,29 @@ padding-left: 20px;
   margin-top: 40px;
 }
 
+#notifications span.row-cta {
+
+margin-bottom: 15px;
+  display: block;
+}
+#notifications h5 {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 15px;
+}
+/*
+#notifications .gray-row input {
+  display: inline!important;
+  width: 10px;
+}*/
+
 #notifications h2 {
   text-indent: 15px;
+}
+#notifications .row h3 {
+  text-indent: 30px;
+  margin-top: 50px;
 }
 
 .checkbox-holder {

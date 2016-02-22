@@ -18,20 +18,18 @@ nav {
   width: 240px;
   margin-top: -30px;
 }
-
 .account-name {
   display: inline-block;
   font-size: 20px;
   color: white;
 }
-
 .profile-img {
   border-radius: 120px;
-  height: 60px;
+  height: 50px;
   display: inline-block;
-  width: 60px;
+  width: 50px;
+  margin-right: 15px;
 }
-
 .sidebar {
   background: #f7f7f7;
   position: absolute;
@@ -43,12 +41,9 @@ nav {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
-
-
 .sidebar ul {
   padding-left: 0;
 }
-
 .sidebar ul li {
   list-style-type: none;
   background: #f7f7f7;
@@ -61,51 +56,25 @@ nav {
 .sidebar ul li:hover {
   /*border-right: 3px solid #2cd9dd;*/
 }
-
 .sidebar ul li.active {
   background: #2cd9dd;
-  border:0;
+  border: 0;
 }
-
 .sidebar ul li.active:hover {
   background: #2cd9dd;
 }
-
 .sidebar ul li.active:hover i {
-  color: white;
+  color: white!important;
   text-shadow: 0px 0px 1px gray;
 }
-
-
 .sidebar ul li.active a {
   color: white;
 }
-
-.sidebar ul li.active:after {
-  content:'';
-  height: 0;
-  width: 0;
-  border-width: 40px 40px 40px 40px;
-  border-style: solid;
-  border-color: #2cd9dd;
-  right: 0;
-
-
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-
-  position: absolute;
-  top: 20px;
-  z-index: -20;
+.sidebar ul li
 }
-
-
-.sidebar ul li.active i  {
+.sidebar ul li.active i {
   color: white;
 }
-
 .sidebar ul li:hover {
   background: #f0f0f0;
   color: gray;
@@ -113,12 +82,10 @@ nav {
 .sidebar ul li:hover i {
   color: #ccc;
 }
-
 .sidebar ul a {
   color: #4c4c4c;
   text-decoration: none;
 }
-
 .sidebar ul span {
   text-align: center;
   display: block;
@@ -126,7 +93,6 @@ nav {
   margin-top: -10px;
   font-weight: 600;
 }
-
 .sidebar a i {
   display: block;
   font-size: 40px;
@@ -134,7 +100,9 @@ nav {
   text-align: center;
   color: #2cd9dd;
 }
-
+.sidebar li.active a i {
+  color: white!important;
+}
 .main-btn {
   background: #2cd9dd;
   display: inline-block;
@@ -146,30 +114,29 @@ nav {
   text-decoration: none;
   border: 2px solid #2cd9dd;
 }
-
 .main-btn:hover {
   background: transparent;
   color: #4c4c4c;
   text-decoration: none;
 }
-
 .profile-holder {
   margin-right: 20px;
   display: inline-block;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   font-weight: 500;
 }
-
-.profile-holder,
-.profile-holder a {
+.profile-holder, .profile-holder a {
   color: white;
   font-size: 20px;
 }
-
 .gray-row {
   background: #f7f7f7;
   border-radius: 10px;
   padding: 40px 20px;
+}
+#notifications .gray-row {
+  text-align: left!important;
+  padding: 10px 10px 30px 10px;
 }
 .gray-row h2 {
   margin-top: 0;
@@ -190,11 +157,9 @@ nav {
   margin-top: -7.5px;
   padding-top: 0;
 }
-
 .table-content {
   overflow-y: hidden;
 }
-
 .table-content .top-row {
   background: #f7f7f7;
   border-top-right-radius: 7px;
@@ -205,7 +170,6 @@ nav {
   padding: 10px 0;
   border-bottom: 2px solid #f3f3f3;
 }
-
 .table-content .row {
   font-size: 20px;
   padding: 12px 0;
@@ -215,7 +179,6 @@ nav {
   border-left: 1px solid #f3f3f3;
   margin: 0 auto;
 }
-
 .table-content .row:nth-child(odd) {
   background: #f7f7f7;
 }
@@ -224,57 +187,46 @@ nav {
   border-bottom-left-radius: 7px;
   border-bottom: 1px solid #f3f3f3;
 }
-
 .table-content .disabled-row {
   background: rgba(255, 0, 0, 0.125);
   border: 1px solid red;
   color: red;
 }
-
 .table-content a {
   font-weight: 500;
   text-align: right;
 }
-
 .perks-row {
   width: 100%;
   margin: 0 auto;
 }
-
 .perks-row h2 {
   text-indent: 45px;
   margin: 80px 0 30px 0;
 }
-
 .perks-row img {
   width: 120px;
 }
-
 .perks-row .col-md-4 {
   text-align: center;
 }
-
 .perks-row .col-md-4 span {
   text-align: center;
   width: 100%;
   display: block;
   /*border: 2px solid rgba(44, 217, 221, .5);*/
+
   border: 1px solid #e0e0e0;
   margin-top: 20px;
   border-radius: 5px;
   overflow: hidden;
-
 }
-
-.perks-row .col-md-4 span h1,
-.perks-row .col-md-4 span h3 {
+.perks-row .col-md-4 span h1, .perks-row .col-md-4 span h3 {
   text-indent: 0;
 }
-
 .pricing-row {
   padding: 50px 0!important;
 }
-
 .pricing-row img {
   background: white;
   border: 7px solid #f3f3f3;
@@ -282,12 +234,10 @@ nav {
   height: 120px;
   width: 120px;
 }
-
 .perks-row h1.price {
   margin: 30px 0;
   display: block;
 }
-
 .perks-row h1:first-child {
   background: #f3f3f3;
   margin-top: 0;
@@ -297,7 +247,6 @@ nav {
 .perks-row .col-md-4 span h3 {
   font-weight: 400;
 }
-
 .main-content {
   margin-top: 25px;
   margin-bottom: 50px;
@@ -308,23 +257,19 @@ nav {
   position: absolute;
   z-index: 0;
 }
-
 .content-window .container {
   position: absolute;
   width: 100%;
   max-width: 1060px;
-  left:0;
+  left: 0;
 }
 .main-content i.fa-calendar {
   margin-right: 20px;
 }
-
 .content-window > * {
-
--webkit-animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
-
 .checkbox-holder {
   font-size: 18px;
   margin: 10px 0;
@@ -332,41 +277,36 @@ nav {
 .checkbox-holder input {
   margin-right: 10px;
 }
-
-
 .gray-row input {
   width: 100%;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.125);
   text-indent: 15px;
   font-size: 20px;
-  height:60px;
+  height: 60px;
 }
-
 span.row-cta {
-  display: inline;
+  display: block;
   width: 100%;
+  position: relative;
 }
-span.row-cta h1,
-span.row-cta h2 {
+span.row-cta h1, span.row-cta h2 {
   width: 75%;
   display: inline-block;
 }
-
 span.row-cta .main-btn {
-  text-align: right;
   display: inline-block;
   padding: 10px 20px;
-  /*float: right;*/
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
-
 .pagination {
   display: block;
   padding-top: 20px;
   padding-right: 30px;
   float: right;
-  }
-
+}
 .pagination ul li {
   display: inline;
 }
@@ -375,32 +315,39 @@ span.row-cta .main-btn {
   margin: 0 4px;
   font-weight: 500;
 }
-
-
-
-
-
-
-
-
-
-
 .uppercase {
   text-transform: uppercase;
 }
-
-
-
-
-
-
-
-
 .m20 {
   margin: 30px 0!important;
   display: block!important;
 }
-
-.mt30  {
+.mt30 {
   margin-top: 30px;
+}
+.mt50 {
+  margin-top: 50px;
+}
+.nav-tabs {
+  margin-bottom: 20px;
+}
+
+input.error {
+  border: 1px solid red!important;
+}
+input.error::-webkit-input-placeholder {
+  color: red;
+  font-weight: 500;
+}
+input.error:-moz-placeholder {
+  color: red;
+  font-weight: 500;
+}
+input.error::-moz-placeholder {
+  color: red;
+  font-weight: 500;
+}
+input.error:-ms-input-placeholder {
+  color: red;
+  font-weight: 500;
 }
