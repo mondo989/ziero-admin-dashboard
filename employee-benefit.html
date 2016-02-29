@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Ziero Financial</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/employees.css">
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> -->
+        <a class="navbar-brand" href="#">
+          <img class="ziero-financial-logo" src="img/ziero-financial-logo.png" alt="ziero financial logo">
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <span class="nav navbar-nav navbar-right ">
+          <span class="profile-holder">
+            <img class="profile-img" src="img/nature.jpg" alt="profile image">
+            <a href="#" class="account-name" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">John Ipsum <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="text-center">Log Out</a></li>
+            </ul>
+          </span>
+        </span>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="sidebar">
+    <ul class="">
+      <li>
+        <a href="index.html">
+          <i class="ion-ios-home"></i>
+          <span>Home</span>
+        </a>
+      </li>
+      <li class="active">
+        <a href="manage-employees.html">
+          <i class="ion-ios-people"></i>
+          <span>Employees</span>
+        </a>
+      </li>
+      <li>
+        <a href="funding-payment-activity.html">
+          <i class="ion-social-usd"></i>
+          <span>Funding</span>
+        </a>
+      </li>
+      <li>
+        <a href="profile-summary.html">
+          <i class="ion-android-person"></i>
+          <span>Profile</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+  <section class="content-window">
+    <div class="container">
+
+      <a href="new-employee.html" class="back-btn">
+        <i class="ion-ios-arrow-left"></i>Back
+      </a>
+
+      <section>
+        <h2>Employee Benefits</h2>
+        <div class="row gray-row employee-benefits">
+          <h3>Choose Which Perks to Award to Employees</h3>
+
+          <div class="row text-center" id="add-perks-container">
+            <div id="perk1" class="col-sm-3 col-xs-6">
+              <span class="circle">
+                  <span class="benefit-copy">
+                      $200
+                  </span>
+              <i class="ion-checkmark-circled"></i>
+              </span>
+
+              <span>
+                  <h5 class="uppercase">Low interest</h5>
+                  <h5>Amount: $5,000</h5>
+                  <h5>Term: 18 months</h5>
+                  <h5>Interest: 6.99%</h5>
+
+              </span>
+
+              <select class="position-dropdown" name="">
+                <option value="Show All">Select Date</option>
+                <option value="Show Other">Other Date</option>
+              </select>
+            </div>
+
+            <div id="perk2" class="col-sm-3 col-xs-6">
+              <span class="circle">
+                  <span class="benefit-copy">
+                    $600
+                  </span>
+              <i class="ion-checkmark-circled"></i>
+              </span>
+              <span>
+                  <h5 class="uppercase">0% Interest</h5>
+                  <h5>Amount: $5,000</h5>
+                  <h5>Term: 18 months</h5>
+                  <h5>Interest: 0%</h5>
+                </span>
+              <select class="position-dropdown" name="">
+                <option value="Show All">Choose Date</option>
+                <option value="Show Other">Other Date</option>
+              </select>
+            </div>
+
+            <div id="perk3" class="col-sm-3 col-xs-6">
+              <span class="circle">
+                  <span class="benefit-copy">$800</span>
+              <i class="ion-checkmark-circled"></i>
+              </span>
+
+              <span>
+                <h5 class="uppercase">0% Interest</h5>
+                <h5>Amount: $5,000</h5>
+                <h5>Term: 18 months</h5>
+                <h5>Interest: 0%</h5>
+              </span>
+
+              <span class="choose-date">
+                <select class="position-dropdown" name="">
+                  <option value="Show All">Select Date</option>
+                  <option value="Show Other">Other Date</option>
+                </select>
+              </span>
+
+            </div>
+            <div class="col-sm-3 col-xs-6 inactive">
+              <span class="inactive-span">
+                Inactive
+              </span>
+              <span id="perk4" class="circle ">
+                  <span class="benefit-copy">
+                    $600
+                  </span>
+              <i class="ion-checkmark-circled"></i>
+              </span>
+
+              <span>
+                <h5 class="uppercase">Low interest</h5>
+                <h5>Amount: $15,000</h5>
+                <h5>Term: 18 months</h5>
+                <h5>Interest: 6.99%</h5>
+              </span>
+
+              <select class="position-dropdown" name="">
+                <option value="Show All">Select Date</option>
+                <option value="Show Other">Other Date</option>
+              </select>
+            </div>
+          </div>
+          <div class="row save-beneift-row">
+            <a href="#" class="text-center main-btn">Save Benefit</a>
+          </div>
+        </div>
+      </section>
+
+      <br>
+      <br>
+
+      </div>
+
+  </section>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+  document.getElementById("perk1").addEventListener("click", function() {
+    document.getElementById("perk1").classList.toggle("active");
+  });
+
+  document.getElementById("perk2").addEventListener("click", function() {
+    document.getElementById("perk2").classList.toggle("active");
+  });
+
+  document.getElementById("perk3").addEventListener("click", function() {
+    document.getElementById("perk3").classList.toggle("active");
+  });
+
+  document.getElementById("perk4").addEventListener("click", function() {
+    document.getElementById("perk4").classList.toggle("active");
+  });
+</script>
+
+</html>

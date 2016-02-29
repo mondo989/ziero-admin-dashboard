@@ -34,10 +34,11 @@
       <div class="collapse navbar-collapse">
         <span class="nav navbar-nav navbar-right ">
           <span class="profile-holder">
-              Contact Us:
-            <a href="#">1 (415) 510-1645</a>
-            <!-- <img class="profile-img" src="http://lorempixel.com/image_output/nature-q-c-120-120-7.jpg" alt="profile image">
-            <a href="#" class="account-name">John Ipsum <span class="caret"></span></a> -->
+            <img class="profile-img" src="img/nature.jpg" alt="profile image">
+            <a href="#" class="account-name" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">John Ipsum <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#" class="text-center">Log Out</a></li>
+        </ul>
         </span>
         </span>
       </div>
@@ -76,22 +77,30 @@
 
   <section class="content-window">
     <div class="container">
-    <div class="row">
-      <ul class="nav nav-tabs">
-        <li class="active">
-          <a href="profile-summary.html">
-            <h4>Add New Employee</h4>
-          </a>
-        </li>
-      </ul>
-    </div>
+      <div class="row">
+        <ul class="nav nav-tabs">
+          <li class="active">
+            <a href="profile-summary.html">
+              <h4>Add New Employee</h4>
+            </a>
+          </li>
+        </ul>
+      </div>
 
       <section>
         <div id="new-employee">
-          <h2>Add New Employee</h2>
+
+          <a href="new-employee.html" class="back-btn">
+            <i class="ion-ios-arrow-left"></i>Back
+          </a>
+
+          <span class="row row-cta details-cta-row">
+            <h2>Employee Details</h2>
+            <a href="new-employee.html" class="main-btn">Update</a>
+          </span>
+
           <div class="row gray-row">
             <div class="row">
-              <h3>Employee Details:</h3>
               <div class="col-sm-7 ">
                 <span class="employee-first-name">First Name:</span>
                 <input class="first-name-input" type="text" placeholder="James">
@@ -128,113 +137,13 @@
               <div class="col-sm-offset-1 col-sm-3">
               </div>
             </div>
-
-            <div class="row update-btn-row">
-              <div class="col-sm-offset-10 col-sm-1">
-                <a href="#" class="main-btn">Update</a>
-              </div>
-            </div>
           </div>
       </section>
 
+      <a href="employee-benefit.html" class="add-benefits-btn">
+        <i class="ion-plus-round"></i>Add New Employee Benefit
+      </a>
 
-      <section>
-        <h2>Employee Benefits</h2>
-        <div class="row gray-row employee-benefits">
-          <h3>Select Which Perks to Award to Employees</h3>
-
-          <div class="row text-center" id="add-perks-container">
-            <div id="perk1" class="col-sm-3 col-xs-6">
-              <span class="circle">
-                  <span class="benefit-copy">
-                      $200
-                  </span>
-                <i class="ion-checkmark-circled"></i>
-              </span>
-
-              <span>
-                  <h5 class="uppercase">Low interest</h5>
-                  <h5>Amount: $5,000</h5>
-                  <h5>Term: 18 months</h5>
-                  <h5>Interest: 6.99%</h5>
-
-              </span>
-
-              <select class="position-dropdown" name="">
-                <option value="Show All">Select Date</option>
-                <option value="Show Other">Other Date</option>
-              </select>
-            </div>
-
-            <div id="perk2" class="col-sm-3 col-xs-6">
-              <span class="circle">
-                  <span class="benefit-copy">
-                    $600
-                  </span>
-              <i class="ion-checkmark-circled"></i>
-              </span>
-                <span>
-                  <h5 class="uppercase">0% Interest</h5>
-                  <h5>Amount: $5,000</h5>
-                  <h5>Term: 18 months</h5>
-                  <h5>Interest: 0%</h5>
-                </span>
-              <select class="position-dropdown" name="">
-                <option value="Show All">Choose Date</option>
-                <option value="Show Other">Other Date</option>
-              </select>
-            </div>
-
-            <div id="perk3" class="col-sm-3 col-xs-6">
-              <span class="circle">
-                  <span class="benefit-copy">$800</span>
-              <i class="ion-checkmark-circled"></i>
-              </span>
-
-              <span>
-                <h5 class="uppercase">0% Interest</h5>
-                <h5>Amount: $5,000</h5>
-                <h5>Term: 18 months</h5>
-                <h5>Interest: 0%</h5>
-              </span>
-
-              <span class="choose-date">
-                <select class="position-dropdown" name="">
-                  <option value="Show All">Select Date</option>
-                  <option value="Show Other">Other Date</option>
-                </select>
-              </span>
-
-            </div>
-            <div class="col-sm-3 col-xs-6 inactive">
-              <span class="inactive-span">
-                Inactive
-              </span>
-              <span id="perk4" class="circle ">
-                  <span class="benefit-copy">
-                    $600
-                  </span>
-              <i class="ion-checkmark-circled"></i>
-              </span>
-
-              <span>
-                <h5 class="uppercase">Low interest</h5>
-                <h5>Amount: $15,000</h5>
-                <h5>Term: 18 months</h5>
-                <h5>Interest: 6.99%</h5>
-              </span>
-
-              <select class="position-dropdown" name="">
-                <option value="Show All">Select Date</option>
-                <option value="Show Other">Other Date</option>
-              </select>
-            </div>
-          </div>
-          <div class="row save-beneift-row">
-            <a href="#" class="text-center main-btn">Save Benefit</a>
-          </div>
-        </div>
-      </section>
 
       <br>
       <br>
@@ -247,22 +156,5 @@
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
-<script type="text/javascript">
-  document.getElementById("perk1").addEventListener("click", function() {
-    document.getElementById("perk1").classList.toggle("active");
-  });
-
-  document.getElementById("perk2").addEventListener("click", function() {
-    document.getElementById("perk2").classList.toggle("active");
-  });
-
-  document.getElementById("perk3").addEventListener("click", function() {
-    document.getElementById("perk3").classList.toggle("active");
-  });
-
-  document.getElementById("perk4").addEventListener("click", function() {
-    document.getElementById("perk4").classList.toggle("active");
-  });
-</script>
 
 </html>

@@ -22,7 +22,7 @@
 
 #new-employee .gray-row {
   text-indent: 30px;
-  padding-top: 10px;
+  padding-top: 35px;
 }
 
 #new-employee .gray-row input {
@@ -37,6 +37,30 @@
 
 #new-employee h3 {
   font-weight: 400;
+}
+
+#new-employee .row-cta {
+  margin-bottom: 30px;
+}
+
+#new-employee .row-cta{
+  width: 103%;
+}
+
+.add-benefits-btn {
+  background: #2cd9dd;
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: -15px;
+}
+.add-benefits-btn i {
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .employee-benefits .circle {

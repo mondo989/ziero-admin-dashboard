@@ -1,48 +1,32 @@
-
-
 #summary .company-data .row span {
   font-size: 20px;
 }
-
-#summary .company-data .row span.company-name,
-#summary .company-data .row span.sign-on-date,
-#summary .company-data .row span.employee-id-number,
-#summary .company-data .row span.address {
+#summary .company-data .row span.company-name, #summary .company-data .row span.sign-on-date, #summary .company-data .row span.employee-id-number, #summary .company-data .row span.address {
   font-weight: 600;
 }
-
-#summary .company-data .row span.company-name,
-#summary .company-data .row span.sign-on-date {
+#summary .company-data .row span.company-name, #summary .company-data .row span.sign-on-date {
   margin: 15px 0;
   text-indent: 20px;
   display: inline-block;
 }
-
-.company-data .row:nth-child(1n+0) {
-
-}
-
+.company-data .row:nth-child(1n+0) {}
 span.employee-id-number {
   text-indent: 20px;
   display: inline-block;
 }
 span.address {
-padding-left: 20px;
+  padding-left: 20px;
   display: inline-block;
 }
-
-
-
-#summary h1,
-#notifications h1,
-#settings h1 {
+#summary h1, #notifications h1, #settings h1 {
   margin-top: 40px;
 }
-
 #notifications span.row-cta {
-
-margin-bottom: 15px;
+  margin-bottom: 15px;
   display: block;
+}
+#summary .row-cta {
+  margin-bottom: 30px;
 }
 #notifications h5 {
   font-size: 22px;
@@ -50,6 +34,7 @@ margin-bottom: 15px;
   text-align: center;
   margin-top: 15px;
 }
+
 /*
 #notifications .gray-row input {
   display: inline!important;
@@ -64,35 +49,33 @@ margin-bottom: 15px;
   margin-top: 50px;
 }
 
+#notifications .gray-row input {
+  width: 30px;
+}
+
 .checkbox-holder {
   text-indent: 30px;
 }
-
 .gray-row input {
   width: 100%;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.125);
   text-indent: 15px;
   font-size: 20px;
-  height:60px;
+  height: 60px;
 }
 .gray-row p {
   text-indent: 30px;
   font-size: 20px;
   font-weight: 600;
 }
-
-
 .name-row {
   margin-top: 20px;
 }
-
 .company-information .row {
   /*background: red;*/
   margin: 15px 0;
 }
-
-.company-information h3,
-.company-information h8 {
+.company-information h3, .company-information h8 {
   text-indent: 40px;
 }
