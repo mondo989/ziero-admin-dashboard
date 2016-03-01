@@ -36,10 +36,11 @@
           <span class="profile-holder">
             <img class="profile-img" src="img/nature.jpg" alt="profile image">
             <a href="#" class="account-name" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">John Ipsum <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#" class="text-center">Log Out</a></li>
-        </ul>
-        </span>
+            <a class="nav-company-name" href="#">Sample Company Name</a>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="text-center">Log Out</a></li>
+            </ul>
+            </span>
         </span>
       </div>
     </div>
@@ -96,7 +97,7 @@
 
           <span class="row row-cta details-cta-row">
             <h2>Employee Details</h2>
-            <a href="new-employee.html" class="main-btn">Update</a>
+            <!-- <a href="new-employee.html" class="main-btn">Update</a> -->
           </span>
 
           <div class="row gray-row">
@@ -134,8 +135,8 @@
                 <!-- <span id="employee-email-address">testemail@yahoo.com</span> -->
               </div>
 
-              <div class="col-sm-3">
-                <a class="delete-btn" href="">
+              <div class="col-sm-3 text-center delete-employee-row">
+                <a onclick="deleteEmployeePrompt()" class="delete-link" href="">
                   <i class="ion-close-circled"></i>
                   <span>Delete Employee</span>
                 </a>
@@ -148,7 +149,7 @@
         <i class="ion-plus-round"></i>Add New Employee Benefit
       </a> -->
 
-      <section>
+      <section id="benefits">
         <h2>Employee Benefits</h2>
         <div class="row gray-row employee-benefits">
           <h3>Choose Which Perks to Award to Employees</h3>
@@ -240,9 +241,9 @@
               </select>
             </div>
           </div>
-          <div class="row save-beneift-row">
+          <!-- <div class="row save-beneift-row">
             <a href="#" class="text-center main-btn">Save Benefit</a>
-          </div>
+          </div> -->
         </div>
       </section>
 
@@ -255,7 +256,28 @@
 </body>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  document.getElementById("perk1").addEventListener("click", function() {
+    document.getElementById("perk1").classList.toggle("active");
+  });
 
+  document.getElementById("perk2").addEventListener("click", function() {
+    document.getElementById("perk2").classList.toggle("active");
+  });
+
+  document.getElementById("perk3").addEventListener("click", function() {
+    document.getElementById("perk3").classList.toggle("active");
+  });
+
+  document.getElementById("perk4").addEventListener("click", function() {
+    document.getElementById("perk4").classList.toggle("active");
+  });
+
+
+  var deleteEmployeePrompt = function(){
+     confirm("Are you sure you want to delete this employee permanently");
+  }
+</script>
 
 
 </html>
