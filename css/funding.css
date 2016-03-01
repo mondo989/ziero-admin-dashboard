@@ -1,14 +1,10 @@
 .section {
   margin: 40px 0;
 }
-
-
 h1 {
   margin-bottom: 10px;
   margin-top: 30px;
 }
-
-
 .date {
   font-size: 15px;
   text-align: center;
@@ -19,59 +15,47 @@ h1 {
   font-size: 20px;
   padding-top: 0!important;
 }
-
-.top-row:first-child .default-payment{
+.top-row:first-child .default-payment {
   font-size: 18px;
 }
 .default-payment {
   text-align: center;
 }
-
 .date {
   /*background: gray;*/
   padding-left: 5px;
   padding-top: 5px;
 }
-.date:after,
-.action:after,
-.amount:after,
-.payment-method:after {
-    content:'';
-    height: 0;
-    width: 0;
-    border-width: 1px 1px 1px 1px;
-    border-style: solid;
-    border-color: #eee;
-    right: -10px;
-    top:-20px;
-    position: absolute;
-    height: 100px;
+.date:after, .action:after, .amount:after, .payment-method:after {
+  content: '';
+  height: 0;
+  width: 0;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #eee;
+  right: -10px;
+  top: -20px;
+  position: absolute;
+  height: 100px;
 }
-
-.card-type:after,
-.card-name:after,
-.card-expiration:after,
-.card-number:after {
-    content:'';
-    height: 0;
-    width: 0;
-    border-width: 1px 1px 1px 1px;
-    border-style: solid;
-    border-color: #eee;
-    right: -10px;
-    top:-20px;
-    position: absolute;
-    height: 100px;
+.card-type:after, .card-name:after, .card-expiration:after, .card-number:after {
+  content: '';
+  height: 0;
+  width: 0;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #eee;
+  right: -10px;
+  top: -20px;
+  position: absolute;
+  height: 100px;
 }
-
-
 .action {
   /*background: blue;*/
   padding-right: 0!important;
   padding-left: 25px;
   margin-right: 0;
 }
-
 .amount {
   /*background: red;*/
   margin-left: 0;
@@ -84,7 +68,7 @@ h1 {
   font-size: 18px!important;
   padding-left: 18px;
   padding-top: 2px;
-   }
+}
 .table-content .top-row .payment-details {
   font-size: 18px!important;
   padding-top: 2px;
@@ -99,56 +83,44 @@ h1 {
   padding-left: 25px;
   padding-right: 0;
 }
-
-
 #payment-activity .main-btn {
   padding: 10px 25px 10px 35px;
   margin-right: 15px!important;
   display: inline-block;
--webkit-transition: .5s;
+  -webkit-transition: .5s;
   transition: .5s;
 }
- .main-btn {
+.main-btn {
   padding: 7px 15px;
   margin-bottom: 20px;
 }
-
 span.row-cta {
   display: inline;
   width: 100%;
 }
-span.row-cta h1,
-span.row-cta h2 {
+span.row-cta h1, span.row-cta h2 {
   width: 100%;
   display: inline-block;
 }
-
 span.row-cta .main-btn {
   text-align: right;
   display: inline-block;
   margin-bottom: 0;
   /*float: right;*/
 }
-
 #payment-activity .main-btn i {
   opacity: 0;
 }
-
 #payment-activity .main-btn:hover i {
   opacity: 1;
 }
 .nav-tabs {
   background: white;
 }
-
-
-
-
 .copy, .remove {
   font-size: 10px!important;
   text-align: center!important;
 }
-
 .active .ion-ios-checkmark-outline {
   border-radius: 120px;
   color: green;
@@ -158,19 +130,16 @@ span.row-cta .main-btn {
   text-indent: 20px;
   display: inline-block;
   margin: 15px 0;
-
   font-weight: 600;
 }
 .total-cost {
   font-weight: 600;
 }
-
 .year-to-date-row span {
   font-size: 20px;
   display: inline-block;
   text-indent: 30px;
 }
-
-h2.year-to-date  {
+h2.year-to-date {
   text-indent: 10px;
 }

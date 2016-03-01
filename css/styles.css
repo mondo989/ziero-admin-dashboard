@@ -123,6 +123,7 @@ nav {
   margin-right: 20px;
   display: inline-block;
   /*margin-top: 10px;*/
+
   font-weight: 500;
 }
 .profile-holder, .profile-holder a {
@@ -138,7 +139,6 @@ nav {
   text-align: left!important;
   padding: 10px 10px 30px 10px;
 }
-
 .gray-row h2 {
   margin-top: 0;
   text-indent: 27px;
@@ -158,14 +158,12 @@ nav {
   margin-top: -7.5px;
   padding-top: 0;
 }
-
-.checkbox-row input{
+.checkbox-row input {
   width: 100%!important;
 }
 .checkbox-row span {
   display: block;
 }
-
 .checkbox-holder input {
   display: inline;
   height: 20px!important;
@@ -174,7 +172,6 @@ nav {
   background: blue!important;
   padding: 30px!important;
 }
-
 .table-content {
   overflow-y: hidden;
 }
@@ -303,7 +300,6 @@ nav {
   font-size: 20px;
   height: 60px;
 }
-
 a.back-btn {
   color: white;
   padding: 10px 20px 10px 35px;
@@ -315,17 +311,15 @@ a.back-btn {
   font-weight: 500;
   position: relative;
 }
-
-a.back-btn i  {
+a.back-btn i {
   display: inline-block;
   margin-right: 7px;
   font-size: 25px;
   position: absolute;
   left: 15px;
   top: 2px;
-  bottom:0;
+  bottom: 0;
 }
-
 span.row-cta {
   display: block;
   width: 100%;
@@ -373,17 +367,12 @@ span.row-cta .main-btn {
   margin-bottom: 30px;
   margin-top: 10px;
 }
-
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
   background: transparent!important;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
   border-bottom-color: transparent!important;
 }
-
-
-
-
 input.error {
   border: 1px solid red!important;
 }
