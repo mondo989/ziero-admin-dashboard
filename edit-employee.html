@@ -37,10 +37,10 @@
           <span class="profile-holder">
             <img class="profile-img" src="img/nature.jpg" alt="profile image">
             <a href="#" class="account-name" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">John Ipsum <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#" class="text-center">Log Out</a></li>
-            </ul>
-          </span>
+        <ul class="dropdown-menu">
+          <li><a href="#" class="text-center">Log Out</a></li>
+        </ul>
+        </span>
         </span>
       </div>
 
@@ -103,7 +103,7 @@
               </div>
               <div class="col-sm-5">
                 <span class="employee-start-date">Start Date:</span>
-                  <input class="start-date-input" type="text" placeholder="09/09/2016">
+                <input class="start-date-input" type="text" placeholder="09/09/2016">
                 <!-- <span id="employee-start-date">09/09/2015</span> -->
               </div>
             </div>
@@ -129,17 +129,121 @@
                 <!-- <span id="employee-email-address">testemail@yahoo.com</span> -->
               </div>
 
-              <div class="col-sm-offset-1 col-sm-3">
+              <div class="col-sm-3 text-center">
+                <a class="delete-btn" href="">
+                  <i class="ion-close-circled"></i>
+                  <span>Delete Employee</span>
+                </a>
               </div>
             </div>
           </div>
-          <a href="employee-benefit.html" class="add-benefits-btn">
+          <!-- <a href="employee-benefit.html" class="add-benefits-btn">
             <i class="ion-plus-round"></i>Add New Employee Benefit
-          </a>
-
+          </a> -->
       </section>
 
-      <section class="benefit-history">
+
+      <section>
+        <h2>Employee Benefits</h2>
+        <div class="row gray-row employee-benefits">
+          <h3>Choose Which Perks to Award to Employees</h3>
+
+          <div class="row text-center" id="add-perks-container">
+            <div id="perk1" class="col-sm-3 col-xs-6">
+              <span class="circle">
+                  <span class="benefit-copy">
+                      $200
+                  </span>
+              <i class="ion-checkmark-circled"></i>
+              </span>
+
+              <span>
+                  <h5 class="uppercase">Low interest</h5>
+                  <h5>Amount: $5,000</h5>
+                  <h5>Term: 18 months</h5>
+                  <h5>Interest: 6.99%</h5>
+
+              </span>
+
+              <select class="position-dropdown" name="">
+                <option value="Show All">Select Date</option>
+                <option value="Show Other">Other Date</option>
+              </select>
+            </div>
+
+            <div id="perk2" class="col-sm-3 col-xs-6">
+              <span class="circle">
+                  <span class="benefit-copy">
+                    $600
+                  </span>
+              <i class="ion-checkmark-circled"></i>
+              </span>
+              <span>
+                  <h5 class="uppercase">0% Interest</h5>
+                  <h5>Amount: $5,000</h5>
+                  <h5>Term: 18 months</h5>
+                  <h5>Interest: 0%</h5>
+                </span>
+              <select class="position-dropdown" name="">
+                <option value="Show All">Choose Date</option>
+                <option value="Show Other">Other Date</option>
+              </select>
+            </div>
+
+            <div id="perk3" class="col-sm-3 col-xs-6">
+              <span class="circle">
+                  <span class="benefit-copy">$800</span>
+              <i class="ion-checkmark-circled"></i>
+              </span>
+
+              <span>
+                <h5 class="uppercase">0% Interest</h5>
+                <h5>Amount: $5,000</h5>
+                <h5>Term: 18 months</h5>
+                <h5>Interest: 0%</h5>
+              </span>
+
+              <span class="choose-date">
+                <select class="position-dropdown" name="">
+                  <option value="Show All">Select Date</option>
+                  <option value="Show Other">Other Date</option>
+                </select>
+              </span>
+
+            </div>
+            <div class="col-sm-3 col-xs-6 inactive">
+              <span class="inactive-span">
+                Inactive
+              </span>
+              <span id="perk4" class="circle ">
+                  <span class="benefit-copy">
+                    $600
+                  </span>
+              <i class="ion-checkmark-circled"></i>
+              </span>
+
+              <span>
+                <h5 class="uppercase">Low interest</h5>
+                <h5>Amount: $15,000</h5>
+                <h5>Term: 18 months</h5>
+                <h5>Interest: 6.99%</h5>
+              </span>
+
+              <select class="position-dropdown" name="">
+                <option value="Show All">Select Date</option>
+                <option value="Show Other">Other Date</option>
+              </select>
+            </div>
+          </div>
+          <div class="row save-beneift-row">
+            <a href="#" class="text-center main-btn">Save Benefit</a>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- <section class="benefit-history">
         <h2>Active Benefits</h2>
         <div class="row employee-benefits">
           <div class="table-content">
@@ -262,9 +366,7 @@
             </div>
           </div>
         </div>
-
-
-      </section>
+      </section> -->
       <br>
       <br>
       </div>

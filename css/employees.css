@@ -10,9 +10,10 @@
 
 #new-employee .row span {
   font-size: 20px;
-  margin: 10px 0;
+  margin-left: 3px!important;
   display: inline-block;
   text-indent: 0;
+
 }
 
 
@@ -24,6 +25,15 @@
   text-indent: 30px;
   padding-top: 35px;
 }
+
+
+#new-employee .gray-row .delete-btn {
+  margin-top: 20px;
+  margin-left: 66px;
+
+  position: relative;
+}
+
 
 #new-employee .gray-row input {
 
@@ -134,8 +144,8 @@
 }
 .start-date-input {
   width: 53%!important;
-  text-align: center;
-  text-indent: 0!important;
+  text-align: left;
+  text-indent: 16px!important;
 }
 .last-name-input {
   width: 72%!important;
@@ -321,9 +331,40 @@
 }
 
 #current-employees-section .search-row select.status-dropdown {
-  width: 140%;
+  width: 110%;
   margin-left: -15px;
   font-size: 10px;
+}
+
+
+
+a.delete-btn {
+  background: #ccc;
+  color: #353535;
+  display: inline-block;
+  text-indent: 0;
+  padding: 15px 20px 15px 35px;
+  border-radius: 10px;
+}
+
+.delete-btn i {
+  font-size: 23px;
+  position: absolute;
+  left:14px;
+  top: 8px;
+  color: #353535;
+  bottom:0;
+  opacity: .25;
+}
+
+.delete-btn span {
+  padding-top: 0!important;
+  font-size: 15px!important;
+  color: #353535;
+width: 130px;
+opacity: .6;
+font-weight: 500;
+  display: inline-block;
 }
 
 
