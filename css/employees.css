@@ -36,7 +36,7 @@
   width: 103%;
 }
 .add-benefits-btn {
-  background: #2cd9dd;
+  background: #06bbb9;
   display: inline-block;
   padding: 20px 40px;
   font-size: 18px;
@@ -65,7 +65,7 @@
   transition: .5s;
 }
 .active .circle {
-  background: #2cd9dd;
+  background: #06bbb9;
   -webkit-animation: bounceIn .5s;
   animation: bounceIn .5s;
 }
@@ -132,7 +132,6 @@
   background: blue;
   padding: 20px;
 }
-
 .start-date-input, .first-name-input, .last-name-input {
   display: inline;
   margin-left: 10px;
@@ -291,18 +290,15 @@ a.delete-btn {
 }
 .delete-link span {
   padding-top: 15px!important;
-
   font-size: 15px!important;
   padding-left: 10px;
   opacity: .6;
   font-weight: 500;
   display: inline-block;
 }
-
 .delete-employee-row {
   padding-top: 15px;
 }
-
 section.benefit-history h2 {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -330,7 +326,6 @@ section.benefit-history h2 {
   padding-top: 50px;
   height: 500px;
 }
-
 h5.uppercase {
   font-size: 20px;
   font-weight: 600;

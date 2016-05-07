@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Ziero Financial</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/employees.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Ziero Financial</title>
 
-  </head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/employees.css">
 
-  <body>
+</head>
 
-    <nav class="navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+<body>
+
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button> -->
-          <a class="navbar-brand" href="#">
-            <img class="ziero-financial-logo" src="img/ziero-financial-logo.png" alt="ziero financial logo">
-          </a>
-        </div>
+        <a class="navbar-brand" href="#">
+          <img class="ziero-financial-logo" src="img/ziero-financial-logo.png" alt="ziero financial logo">
+        </a>
+      </div>
 
-        <div class="collapse navbar-collapse">
-          <span class="nav navbar-nav navbar-right ">
+      <div class="collapse navbar-collapse">
+        <span class="nav navbar-nav navbar-right ">
             <span class="profile-holder">
             <img class="profile-img" src="img/nature.jpg" alt="profile image">
               <a href="#" class="account-name" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">John Ipsum <span class="caret"></span></a>
-              <a class="nav-company-name" href="#">Sample Company Name</a>
-              <ul class="dropdown-menu">
-                <li><a href="#" class="text-center">Log Out</a></li>
-              </ul>
-            </span>
-          </span>
-        </div>
+        <a class="nav-company-name" href="#">Sample Company Name</a>
+        <ul class="dropdown-menu">
+          <li><a href="#" class="text-center">Log Out</a></li>
+        </ul>
+        </span>
+        </span>
       </div>
-    </nav>
+    </div>
+  </nav>
 
 
   <div class="sidebar">
@@ -95,53 +96,73 @@
         <a class="main-btn" href="new-employee.html">+ Add New Employee</a>
       </div>
 
-      <div class="row perks-row" >
-        <h2>Perks Available to Employees:</h2>
-          <div class="table-content">
-            <div class="row pricing-row">
-              <div class="col-md-4">
-                <img src="img/logo-circle.png" alt="">
-                <span>
-                  <h1>Low Interest</h1>
-                  <h3>Amount: $5,000</h3>
-                  <h3>Term: 18 months</h3>
-                  <h3>Interest: %6.599</h3>
-                  <h1 class="price">$279</h1>
-                </span>
-              </div>
-              <div class="col-md-4">
-                <img src="img/logo-circle.png" alt="">
-                <span>
-                  <h1>No Interest</h1>
-                  <h3>Amount: $5,000</h3>
-                  <h3>Term: 18 months</h3>
-                  <h3>Interest: %6.599</h3>
-                  <h1 class="price">$600</h1>
-                </span>
-              </div>
-              <div class="col-md-4">
-                <img src="img/logo-circle.png" alt="">
-                <span>
-                  <h1>Extended Term</h1>
-                  <h3>Amount: $5,000</h3>
-                  <h3>Term: 18 months</h3>
-                  <h3>Interest: %6.599</h3>
-                  <h1 class="price">$800</h1>
-                </span>
-              </div>
+      <div id="pricing" class="row">
+        <h3 class="text-left">Perks Available to Employees:</h3>
+        <div class="row pricing-row">
+          <div class="col-md-4">
+            <div class="price-box">
+              <span class="type">Starter</span>
+              <span class="price">$100</span>
+              <span class="employer-fee">Employer Fee</span>
+              <br>
+              <span class="employee-perk-holder">
+                <span class="employer-perk">Employee Perk</span>
+              <span class="amount">$1,000</span>
+              <span class="terms">Term: 6 Months</span>
+              <span class="repayment">Repayment: $83/Semi-mo</span>
+              <span class="interest">Interest: 0%</span>
+              </span>
+              <!-- <img src="img/coming-soon.png" class="most-popular non-profit"> -->
             </div>
-        </div>
-    </div>
+            <span class="nonprofit-copy text-center">*Product availability may vary by state.</span>
+          </div>
 
-<br>
-<br>
+          <div class="col-md-4">
+            <div class="price-box">
+              <span class="type">Standard</span>
+              <span class="price">$250</span>
+              <span class="employer-fee">Employer Fee</span>
+              <br>
+              <span class="employee-perk-holder">
+                <span class="employer-perk">Employee Perk</span>
+              <span class="amount">$2,500</span>
+              <span class="terms">Term: 12 Months</span>
+              <span class="repayment">Repayment: $208/mo</span>
+              <span class="interest">Interest: 0%</span>
+              </span>
+              <!-- <img src="img/ribbon.png" class="most-popular non-profit"> -->
+            </div>
+            <!-- <span class="nonprofit-copy">*Product availability may vary by state.</span> -->
+          </div>
+
+          <div class="col-md-4">
+            <div class="price-box">
+              <span class="type">Premium</span>
+              <span class="price">$600</span>
+              <span class="employer-fee">Employer Fee</span>
+              <br>
+              <span class="employee-perk-holder">
+                <span class="employer-perk">Employee Perk</span>
+              <span class="amount">$5,000</span>
+              <span class="terms">Term: 18 Months</span>
+              <span class="repayment">Repayment: $277/mo</span>
+              <span class="interest">Interest: 0%</span>
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <br>
+      <br>
 
   </section>
 
 
-  </body>
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
 </html>

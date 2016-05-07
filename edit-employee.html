@@ -37,7 +37,7 @@
           <span class="profile-holder">
             <img class="profile-img" src="img/nature.jpg" alt="profile image">
             <a href="#" class="account-name" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">John Ipsum <span class="caret"></span></a>
-            <a class="nav-company-name" href="#">Sample Company Name</a>
+        <a class="nav-company-name" href="#">Sample Company Name</a>
         <ul class="dropdown-menu">
           <li><a href="#" class="text-center">Log Out</a></li>
         </ul>
@@ -92,9 +92,20 @@
 
       <section>
         <div id="new-employee">
-          <a href="new-employee.html" class="back-btn">
-            <i class="ion-ios-arrow-left"></i>Back
-          </a>
+          <div class="row">
+            <div class="col-sm-1">
+              <a href="new-employee.html" class="back-btn">
+                <i class="fa fa-times"></i>Cancel
+              </a>
+            </div>
+
+            <div class="col-sm-1 ">
+              <a href="new-employee.html" class="save-btn">
+                <i class="fa fa-floppy-o"></i>Save
+              </a>
+            </div>
+          </div>
+
           <span class="row row-cta ">
             <h2>Employee Information</h2>
             <!-- <a href="new-employee.html" class="main-btn">Update</a> -->
@@ -243,6 +254,19 @@
           <!-- <div class="row save-beneift-row">
             <a href="#" class="text-center main-btn">Save Benefit</a>
           </div> -->
+        </div>
+        <div class="row">
+          <div class="col-sm-1">
+            <a href="new-employee.html" class="back-btn">
+              <i class="fa fa-times"></i>Cancel
+            </a>
+          </div>
+
+          <div class="col-sm-1 ">
+            <a href="new-employee.html" class="save-btn">
+              <i class="fa fa-floppy-o"></i>Save
+            </a>
+          </div>
         </div>
       </section>
 
@@ -399,10 +423,9 @@
     document.getElementById("perk4").classList.toggle("active");
   });
 
- var deleteEmployeePrompt = function() {
+  var deleteEmployeePrompt = function() {
     confirm("Are you sure you want to delete this employee permanently");
- }
-
+  }
 </script>
 
 </html>
