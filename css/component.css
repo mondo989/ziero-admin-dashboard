@@ -1,0 +1,41 @@
+#benefits-agreement {
+  font-family: Arial;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+#benefits-agreement p {
+  line-height: 1.5;
+}
+#benefits-agreement h2 {
+  margin: 20px 0!important;
+  line-height: 1.3!important;
+  padding-bottom: 20px!important;
+}
+#benefits-agreement h3 {
+  margin: 10px 0!important;
+  line-height: 1.3!important;
+  padding-bottom: 5px!important;
+}
+.text-center {
+  text-align: center;
+}
+.underline {
+  text-decoration: underline;
+}
+.bold {
+  font-weight: bold;
+}
+#sign-agreement {
+  display: inline;
+}
+label.sign-agreement-label {
+  display: inline;
+  margin-left: 20px;
+}
+@media (max-width: 600px) {
+  #benefits-agreement {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
