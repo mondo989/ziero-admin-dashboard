@@ -91,7 +91,7 @@
       </div>
 
       <section>
-        <div id="new-employee">
+        <div id="edit-employee">
           <div class="row">
             <div class="col-sm-1">
               <a href="new-employee.html" class="back-btn">
@@ -110,7 +110,7 @@
             <h2>Employee Information</h2>
             <!-- <a href="new-employee.html" class="main-btn">Update</a> -->
           </span>
-          <div class="row gray-row">
+        <div class="row gray-row">
             <div class="row">
               <div class="col-sm-7 ">
                 <span class="employee-first-name">First Name:</span>
@@ -139,19 +139,30 @@
             </div>
 
             <div class="row">
-              <div class="col-sm-8">
+              <div class="col-sm-7">
                 <span class="employee-email-address">Email Address:</span>
                 <input class="position-input" type="text" placeholder="jamesbond007@yahoo.com">
-                <!-- <span id="employee-email-address">testemail@yahoo.com</span> -->
               </div>
 
-              <div class="col-sm-3 text-center delete-employee-row">
-                <a onclick="deleteEmployeePrompt()" class="delete-link" href="">
+              <div class="col-sm-5 text-left">
+                <label class="checkbox part-time-employee">
+                  Part Time Employee
+                  <input id="part-time-employee" type="checkbox"/>
+                  <span></span>
+                </label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-offset-8 col-sm-4 text-center">
+                <a onclick="deleteEmployeePrompt()" class=" delete-btn" href="">
                   <i class="ion-close-circled"></i>
-                  <span>Delete Employeee</span>
+                  <span>Delete Employee</span>
                 </a>
               </div>
             </div>
+
+
           </div>
           <!-- <a href="employee-benefit.html" class="add-benefits-btn">
             <i class="ion-plus-round"></i>Add New Employee Benefit
